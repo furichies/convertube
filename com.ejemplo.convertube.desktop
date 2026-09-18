@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ConverTube
+Comment=Extrae el audio de videos de YouTube en MP3 o M4A
+Exec=/usr/bin/convertube
+Icon=com.ejemplo.convertube
+Terminal=false
+Categories=AudioVideo;Audio;GTK;
+Keywords=youtube;mp3;m4a;audio;descargar;convertir;cortar;
+StartupWMClass=com.ejemplo.convertube
