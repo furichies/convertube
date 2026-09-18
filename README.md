@@ -28,13 +28,13 @@ Todas las dependencias se instalan automáticamente al instalar el paquete `.deb
 Descarga el paquete más reciente desde la página de [Releases](https://github.com/furichies/convertube/releases) e instálalo con:
 
 ```bash
-sudo apt install ./convertube_1.1.0_all.deb
+sudo apt install ./convertube_1.1.1_all.deb
 ```
 
 O alternativamente:
 
 ```bash
-sudo dpkg -i convertube_1.1.0_all.deb
+sudo dpkg -i convertube_1.1.1_all.deb
 sudo apt -f install   # solo si faltan dependencias
 ```
 
@@ -66,6 +66,7 @@ sudo apt remove convertube
 
 ## Changelog
 
+- **1.1.1** (2026-09-18): integración correcta en GNOME (barra de cabecera arrastrable con botones de ventana, `StartupWMClass` corregido), elimina botón "Cerrar" redundante.
 - **1.1.0** (2026-08-30): nueva pestaña "Cortar MP3" (selección de MP3, tiempos `MM:SS`, salida `*_corte.mp3`, re-encode `ffmpeg`), ventana ampliada, muestra duración vía `ffprobe`.
 - **1.0.2** (2026-08-25): corrige empaquetado yt-dlp integrado, habilita runtimes JS.
 - **1.0.1** (2026-08-25): incluye yt-dlp vendorizado, botón cerrar.
